@@ -2,6 +2,8 @@ package com.example.myapplication.di
 
 import android.content.Context
 import androidx.viewbinding.BuildConfig
+
+import com.example.MyApplication.BuildConfig
 import com.example.data.api.NetworkModule
 import com.example.data.db.BooksDatabase
 import com.example.data.mappers.BookApiResponseMapper

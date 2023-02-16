@@ -14,7 +14,7 @@ import com.example.myapplication.LayoutUtils
 import com.example.myapplication.entities.BookWithStatus
 import com.example.MyApplication.R
 import com.example.MyApplication.databinding.FragmentBooksBinding
-import com.example.myapplication.databinding.FragmentBooksBinding
+
 
 class BooksFragment : Fragment() {
     private lateinit var booksAdapter: BookAdapter
