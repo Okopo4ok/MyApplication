@@ -85,7 +85,7 @@ class BooksFragment : Fragment() {
                 getString(R.string.an_error_has_occurred, it),
                 Toast.LENGTH_SHORT
             ).show()
-        })
+        } )
     }
 
     companion object {
