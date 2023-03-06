@@ -1,6 +1,5 @@
 package com.example.domain.common
 
-
 sealed class Result<out R> {
 
     data class Success<out T>(val data: T) : Result<T>()

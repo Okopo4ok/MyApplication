@@ -10,8 +10,8 @@ import com.example.domain.common.Result
 
 class BooksRemoteDataSourceImpl(
     private val service: BooksApi,
-    private val mapper: BookApiResponseMapper
-) : BooksRemoteDataSource {
+    private val mapper: BookApiResponseMapper) : BooksRemoteDataSource
+{
     override suspend fun getBooks(author: String): Result<List<Volume>> =
         withContext(Dispatchers.IO) {
             try {
